@@ -1,6 +1,6 @@
 {
 	"name": "Image Size Check",
-	"description": "This extension shows how the size of images relate to their source's size.",
+	"description": "Displays discrepancies in size between source and presentation.",
 	"version": "1.0.0",
 	"background": {
 		"scripts": ["background.js"],
@@ -12,5 +12,10 @@
 	"permissions": [
 		"activeTab"
 	],
+    "icons": {
+            "16": "assets/img-check_16.png",
+            "48": "assets/img-check_48.png",
+            "128": "assets/img-check_128.png"
+    },
 	"manifest_version": 2
 }
